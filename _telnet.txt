@@ -1,0 +1,31 @@
+﻿Installing telnet
+sudo apt install telnet
+
+
+sudo apt install telnetd
+  
+ Start
+systemctl status inetd
+
+
+Allowing Telnet port through firewall
+sudo afw allow 23/tcp
+
+
+
+
+sudo ufw reload
+
+
+Add user
+sudo useradd telnet
+
+
+sudo passwd telnet
+
+
+Using Telnet for remote login Accessing directories
+telnet -l telnet 192.168.5.86
+
+
+Reading files
