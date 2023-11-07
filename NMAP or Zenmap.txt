@@ -1,0 +1,43 @@
+﻿NMAP or Zenmap
+
+
+nmap -A -T4 scanme.nmap.org
+
+
+sudo nmap -A -T4 -sS scanme.nmap.org
+
+
+sudo nmap -sS 192.168.5.86
+
+
+sudo nmap -A -T4 -PA -PO scanme.nmap.org
+
+
+nmap 192.168.5.30-255
+
+
+nmap -oN abc.txt 192.168.5.104
+
+
+ZENMAP
+Intense Scan:
+Command
+nmap-T4-A-v scanme.nmap.org
+
+
+Intense Scan, All TCP ports:
+
+
+Nmap -p 1-65535-T4-A-v scanme.nmap.org
+
+
+Quick Scan:
+
+
+nmap-T4-F scanme.nmap.org
+
+
+Regular scan
+
+
+Nmap scanme.nmap.org
