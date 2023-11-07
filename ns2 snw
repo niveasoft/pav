@@ -1,5 +1,6 @@
-#	* Stop and Wait NS2 Program
-#	* Author:PracsPedia		www.pracspedia.com
+make file ns ns2.tcl
+
+#Stop and Wait NS2 Program
 
 set ns [new Simulator]
 
@@ -61,3 +62,5 @@ $ns at 2.99 "$ns trace-annotate \"Receive Ack_6\""
 $ns at 3.1 "$ns trace-annotate \"FTP stops\""
 
 $ns run
+
+ns ns2.tcl
